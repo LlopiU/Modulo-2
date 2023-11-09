@@ -1,0 +1,158 @@
+{
+  "id": "1e8684b3-2077-4cfe-b6c9-2f2029a0e025",
+  "version": "2.0",
+  "name": "test-Editar",
+  "url": "http://localhost",
+  "tests": [{
+    "id": "6559d67f-c3c0-4cad-979f-63669f7a25f2",
+    "name": "Prueba_editar_usuarios",
+    "commands": [{
+      "id": "3d14ecc7-cb13-4f56-a16e-ba5f53bc4a2d",
+      "comment": "",
+      "command": "open",
+      "target": "/primer_proyecto/panel",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fce66c01-34eb-48b1-a4c7-cb14ce051633",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x688",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "50e2620a-1bc9-4ddf-8c24-42e7dee58adf",
+      "comment": "",
+      "command": "click",
+      "target": "id=registro",
+      "targets": [
+        ["id=registro", "id"],
+        ["linkText=Usuarios", "linkText"],
+        ["css=.nav-item:nth-child(2) > #registro", "css:finder"],
+        ["xpath=//a[contains(text(),'Usuarios')]", "xpath:link"],
+        ["xpath=//a[@id='registro']", "xpath:attributes"],
+        ["xpath=//div[@id='navbarNav']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'usuarios')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Usuarios')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0b75879a-a172-4209-a7ab-e6d0b0f94de4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Baja",
+      "targets": [
+        ["linkText=Baja", "linkText"],
+        ["css=tr:nth-child(1) .btn-danger", "css:finder"],
+        ["xpath=//a[contains(text(),'Baja')]", "xpath:link"],
+        ["xpath=//a[@href='http://localhost/primer_proyecto/usuarios/darDeBaja/12']", "xpath:href"],
+        ["xpath=//td[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Baja')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3f702453-1195-4a0a-b0c6-9360ebf439b4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Baja",
+      "targets": [
+        ["linkText=Baja", "linkText"],
+        ["css=tr:nth-child(2) .btn-danger", "css:finder"],
+        ["xpath=//a[contains(text(),'Baja')]", "xpath:link"],
+        ["xpath=//a[@href='http://localhost/primer_proyecto/usuarios/darDeBaja/13']", "xpath:href"],
+        ["xpath=//tr[2]/td[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Baja')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "48d698ed-982f-4f2d-b770-ce5114c14d1e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Baja",
+      "targets": [
+        ["linkText=Baja", "linkText"],
+        ["css=.btn-danger", "css:finder"],
+        ["xpath=//a[contains(text(),'Baja')]", "xpath:link"],
+        ["xpath=//a[@href='http://localhost/primer_proyecto/usuarios/darDeBaja/15']", "xpath:href"],
+        ["xpath=//tr[3]/td[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Baja')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "01a10bac-cf7c-42ad-8fc3-3f7607c03ea0",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(2) .btn-success",
+      "targets": [
+        ["css=tr:nth-child(2) .btn-success", "css:finder"],
+        ["xpath=(//a[contains(text(),'Alta')])[2]", "xpath:link"],
+        ["xpath=//a[@href='http://localhost/primer_proyecto/usuarios/darDeAlta/13']", "xpath:href"],
+        ["xpath=//tr[2]/td[6]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1709394e-d4a0-4f9b-aee5-8a7a807d7789",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Editar",
+      "targets": [
+        ["linkText=Editar", "linkText"],
+        ["css=tr:nth-child(1) .btn-warning", "css:finder"],
+        ["xpath=//a[contains(text(),'Editar')]", "xpath:link"],
+        ["xpath=//a[@href='http://localhost/primer_proyecto/usuarios/editarUsuario/12']", "xpath:href"],
+        ["xpath=//td[7]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Editar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ef7d1b3e-d9a8-498e-92dd-1492b77bff8c",
+      "comment": "",
+      "command": "click",
+      "target": "id=nombre",
+      "targets": [
+        ["id=nombre", "id"],
+        ["name=nombre", "name"],
+        ["css=#nombre", "css:finder"],
+        ["xpath=//input[@id='nombre']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "14b3ca70-f8ef-40a4-adcc-5e22c7e318e2",
+      "comment": "",
+      "command": "type",
+      "target": "id=nombre",
+      "targets": [
+        ["id=nombre", "id"],
+        ["name=nombre", "name"],
+        ["css=#nombre", "css:finder"],
+        ["xpath=//input[@id='nombre']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Florencia Trinidad"
+    }, {
+      "id": "3d4861c8-774f-4716-b760-5a07bdecfcfe",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn:nth-child(5)",
+      "targets": [
+        ["css=.btn:nth-child(5)", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Guardar Cambios')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "e0ce6f2d-9d6e-4380-87da-25dc8647bef0",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["6559d67f-c3c0-4cad-979f-63669f7a25f2"]
+  }],
+  "urls": ["http://localhost/"],
+  "plugins": []
+}

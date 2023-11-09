@@ -1,0 +1,182 @@
+{
+  "id": "aa05e8d6-627d-4c7c-bbfe-fa4c03ad6511",
+  "version": "2.0",
+  "name": "Prueba_login",
+  "url": "http://localhost/primer_proyecto/login",
+  "tests": [{
+    "id": "e06d4361-bc9a-4ceb-9e1b-a9b40ba2f988",
+    "name": "Prueba_login_inicio",
+    "commands": [{
+      "id": "680a3209-2256-466f-8126-d55be80fc9df",
+      "comment": "",
+      "command": "open",
+      "target": "/primer_proyecto/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "41529ff6-00c4-4fcb-a3ed-2bb6b77b8ac1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "780x672",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8f4c532d-c2d0-4c84-9ec7-d1d666984903",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.form-outline:nth-child(3) > .form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "llopiulisesalan10@gmail.com"
+    }, {
+      "id": "022dad58-5340-4598-9c17-0f42b77ac909",
+      "comment": "",
+      "command": "type",
+      "target": "name=pass",
+      "targets": [
+        ["name=pass", "name"],
+        ["css=.form-outline:nth-child(4) > .form-control", "css:finder"],
+        ["xpath=//input[@name='pass']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "admin23"
+    }, {
+      "id": "50fa85a0-3efb-4abe-b49d-d72dd5280f69",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-success",
+      "targets": [
+        ["css=.btn-success", "css:finder"],
+        ["xpath=//input[@value='Ingresar']", "xpath:attributes"],
+        ["xpath=//form/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "96f6a7c8-c3ed-4a2d-b1c6-c95367f1237f",
+    "name": "Prueba_login_inicio_fallido",
+    "commands": [{
+      "id": "289b3435-c3c3-422e-9c27-d49caf70977a",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/primer_proyecto/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5dfeba1b-4b34-4866-87f3-c452530b2d28",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "780x672",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6a5f5f4a-8c71-4782-b6b1-e01d26966404",
+      "comment": "",
+      "command": "click",
+      "target": "name=pass",
+      "targets": [
+        ["name=pass", "name"],
+        ["css=.form-outline:nth-child(4) > .form-control", "css:finder"],
+        ["xpath=//input[@name='pass']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4661b5a3-d8ee-4ad3-90eb-f26b2cc6f915",
+      "comment": "",
+      "command": "type",
+      "target": "name=pass",
+      "targets": [
+        ["name=pass", "name"],
+        ["css=.form-outline:nth-child(4) > .form-control", "css:finder"],
+        ["xpath=//input[@name='pass']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "admin13"
+    }, {
+      "id": "2d3430da-403a-4be9-861b-226e6b4f0e6d",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.form-outline:nth-child(3) > .form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ca6f34b1-0b9a-4710-8ba9-1873ac56fa7c",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.form-outline:nth-child(3) > .form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "llopiU"
+    }, {
+      "id": "7d4b7956-e201-42a7-ba9a-abd2232cd615",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn:nth-child(5)",
+      "targets": [
+        ["css=.btn:nth-child(5)", "css:finder"],
+        ["xpath=//input[@value='Ingresar']", "xpath:attributes"],
+        ["xpath=//form/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fe38431b-b20c-4b81-a852-12605b7cde89",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.form-outline:nth-child(3) > .form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "993f7d7e-bcca-4e7a-ae48-7e1353486392",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.form-outline:nth-child(3) > .form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "llopiU@gmail.com"
+    }, {
+      "id": "94f4e115-bfa9-4e99-9c10-d6950b5e6e83",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn:nth-child(5)",
+      "targets": [
+        ["css=.btn:nth-child(5)", "css:finder"],
+        ["xpath=//input[@value='Ingresar']", "xpath:attributes"],
+        ["xpath=//form/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "ea98105b-3e45-4b36-bcea-f604b150b3fe",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["e06d4361-bc9a-4ceb-9e1b-a9b40ba2f988"]
+  }],
+  "urls": ["http://localhost/", "http://localhost/primer_proyecto/login"],
+  "plugins": []
+}

@@ -1,0 +1,70 @@
+{
+  "id": "aa05e8d6-627d-4c7c-bbfe-fa4c03ad6511",
+  "version": "2.0",
+  "name": "Prueba_login",
+  "url": "http://localhost",
+  "tests": [{
+    "id": "e06d4361-bc9a-4ceb-9e1b-a9b40ba2f988",
+    "name": "Prueba_login_inicio",
+    "commands": [{
+      "id": "680a3209-2256-466f-8126-d55be80fc9df",
+      "comment": "",
+      "command": "open",
+      "target": "/primer_proyecto/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "41529ff6-00c4-4fcb-a3ed-2bb6b77b8ac1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "780x672",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8f4c532d-c2d0-4c84-9ec7-d1d666984903",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.form-outline:nth-child(3) > .form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "llopiulisesalan10@gmail.com"
+    }, {
+      "id": "022dad58-5340-4598-9c17-0f42b77ac909",
+      "comment": "",
+      "command": "type",
+      "target": "name=pass",
+      "targets": [
+        ["name=pass", "name"],
+        ["css=.form-outline:nth-child(4) > .form-control", "css:finder"],
+        ["xpath=//input[@name='pass']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "admin23"
+    }, {
+      "id": "50fa85a0-3efb-4abe-b49d-d72dd5280f69",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-success",
+      "targets": [
+        ["css=.btn-success", "css:finder"],
+        ["xpath=//input[@value='Ingresar']", "xpath:attributes"],
+        ["xpath=//form/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "ea98105b-3e45-4b36-bcea-f604b150b3fe",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["e06d4361-bc9a-4ceb-9e1b-a9b40ba2f988"]
+  }],
+  "urls": ["http://localhost/"],
+  "plugins": []
+}
